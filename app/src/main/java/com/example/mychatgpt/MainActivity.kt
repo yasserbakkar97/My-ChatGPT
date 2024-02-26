@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     private val client = OkHttpClient()
 
     // Constants
-    private val apiKey = "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"
+    private val apiKey = "your_apiKey"
     private val apiUrl = "https://api.openai.com/v1/completions"
 
     @RequiresApi(Build.VERSION_CODES.M)
